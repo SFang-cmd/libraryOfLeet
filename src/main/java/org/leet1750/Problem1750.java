@@ -1,7 +1,4 @@
-package org.leetP1;
-
-import java.sql.SQLOutput;
-import java.util.Arrays;
+package org.leet1750;
 
 public class Problem1750 {
     public static void main(String[] args) {

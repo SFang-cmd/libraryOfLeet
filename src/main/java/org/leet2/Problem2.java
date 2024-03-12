@@ -1,4 +1,4 @@
-package org.leetP1;
+package org.leet2;
 
 class ListNode2 {
     int val;

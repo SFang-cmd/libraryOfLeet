@@ -1,6 +1,4 @@
-package org.leetP1;
-import java.sql.SQLOutput;
-import java.util.Random;
+package org.leet948;
 
 public class Problem948 {
     public static void main(String[] args) {

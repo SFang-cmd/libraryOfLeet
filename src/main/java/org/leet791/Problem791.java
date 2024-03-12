@@ -1,6 +1,4 @@
-package org.leetP1;
-
-import java.util.Arrays;
+package org.leet791;
 
 public class Problem791 {
     public static void main(String[] args) {

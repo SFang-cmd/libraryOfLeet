@@ -1,8 +1,8 @@
-package org.leetP1;
+package org.leet141;
 
 class ListNode141 {
     int val;
-    ListNode876 next;
+    ListNode141 next;
     ListNode141(int x) {
         val = x;
         next = null;
@@ -11,10 +11,10 @@ class ListNode141 {
 
 public class Problem141 {
     public static void main(String[] args) {
-        ListNode876 l4 = new ListNode876(-4);
-        ListNode876 l3 = new ListNode876(0);
-        ListNode876 l2 = new ListNode876(2);
-        ListNode876 head = new ListNode876(1);
+        ListNode141 l4 = new ListNode141(-4);
+        ListNode141 l3 = new ListNode141(0);
+        ListNode141 l2 = new ListNode141(2);
+        ListNode141 head = new ListNode141(1);
         head.next = l2;
         l2.next = l3;
         l3.next = l4;
@@ -22,10 +22,10 @@ public class Problem141 {
         System.out.println(hasCycle(head));
     }
 
-    public static boolean hasCycle(ListNode876 head) {
+    public static boolean hasCycle(ListNode141 head) {
         if (head == null) return false;
-        ListNode876 slow = head;
-        ListNode876 fast = head;
+        ListNode141 slow = head;
+        ListNode141 fast = head;
         while (fast.next != null && fast.next.next != null) {
             slow = slow.next;
             fast = fast.next.next;

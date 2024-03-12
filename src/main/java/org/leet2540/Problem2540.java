@@ -1,4 +1,4 @@
-package org.leetP1;
+package org.leet2540;
 
 public class Problem2540 {
     public static void main(String[] args) {

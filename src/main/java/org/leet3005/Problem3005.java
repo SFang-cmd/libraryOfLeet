@@ -1,7 +1,4 @@
-package org.leetP1;
-
-import java.sql.SQLOutput;
-import java.util.HashMap;
+package org.leet3005;
 
 public class Problem3005 {
     public static void main(String[] args) {

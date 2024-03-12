@@ -1,4 +1,4 @@
-package org.leetP1;
+package org.leet876;
 
 class ListNode876 {
     int val;
