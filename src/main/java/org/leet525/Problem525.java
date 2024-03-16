@@ -4,8 +4,10 @@ import java.util.HashMap;
 
 public class Problem525 {
     public static void main(String[] args) {
-        int[] nums = new int[]{0,1,0,1,1,1,1,0,0,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0};
-        System.out.println(findMaxLength(nums));
+//        int[] nums = new int[]{0,1,0,1,1,1,1,0,0,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0};
+//        System.out.println(findMaxLength(nums));
+        System.out.println(1 << 1);
+        System.out.println(0 << 1);
     }
 
     public static int findMaxLength(int[] nums) {
